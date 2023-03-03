@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Based on a template by Jan Küster (info@jankuester.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Adam}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Hajek}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge  Software engineer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Phone}{12}{+420 734 318 988}\\
+	\icon{At}{12}{\href{mailto:22adamhajek@gmail.com}{22adamhajek@gmail.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Github}{12}{\href{https://github.com/hajekad}{github.com/hajekad}}\\
+	\icon{MapMarker}{12}{Prague}\\
+
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.6\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	As a recent graduate of the prestigious Grammar School of Dr. Vaclav Smejkal and current student at the Czech Technical University's Faculty of Information Technology, 
+	I am eager to leverage my skills and experience to contribute to a dynamic workplace that values innovation and growth. My background in financial advising, staff management,
+	 and badminton coaching has equipped me with a diverse skill set, including strong communication and interpersonal abilities, analytical thinking, and leadership potential.
+
+	I am passionate about pursuing opportunities that allow me to apply my knowledge and expertise in programming languages such as C/C++, and SQL
+	 to solve complex problems and drive organizational success. Additionally, my proficiency in English and German languages adds an extra dimension to my ability to collaborate and work effectively in
+	  diverse teams.
+
+	Overall, I am excited about the prospect of joining a dynamic workplace where I can continue to learn, grow, and make meaningful contributions towards achieving the organization's goals.\\
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.4\textwidth} % 50% of the page for the skills bar chart
+	\vspace{0.5cm}
+	\cvsect{Proficiency across favourite technologies}
+	\vspace{0.5cm}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	% \cvset{Proficiency across favourite technologies}
+	\begin{barchart}{5.5}
+		\baritem{C}{90}
+		\baritem{C++}{100}
+		% \baritem{C\#}{60}
+		\baritem{Java}{90}
+		\baritem{SQL}{80}
+		\baritem{Docker}{50}
+		\baritem{Git}{75}
+	\end{barchart}
+\end{minipage}
+
+% \begin{center}
+% 	\bubbles{5/Algorithms, 6/git, 4/Networking, 4/Bash, 6/Linux}
+% \end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{11/2022 -- 12/2023}
+		{Reservantor}
+		{Technology Java - FIT CVUT}
+		{Reservantor is a reservation sustems backend that serves Trainees and their Coaches and also matching Trainee for matches.\\ \texttt{Java}\slashsep\texttt{Springboot}}
+	\entry
+		{3/2022 -- 6/2022}
+		{Bomberman}
+		{Programming and algoritmization - FIT CVUT}
+		{I developed a clone of the orgininal Bomberman game, with a slight change, that it runs in terminal.\\ \texttt{C++}}
+	\entry
+		{6/2022 -- 9/2022}
+		{6 minut pro zdravi}
+		{6minutprozdravi.cz}
+		{I developed a full stack app running a .net back-end and an android application that tracks users walking speed and sends it to their pediatrician.\\ \texttt{C\#}\slashsep\texttt{Angular}}
+	\entry
+		{2020 -- 20??\\\footnotesize{hobby}}
+		{Competitive programming}
+		{codewars.com\slashsep leetcode.com\slashsep codeforces.com}
+		{As one of my hobbies i took up competitive programming which i often pursue in my spare time, some of the most recent problems i solved are public on my github. \\ \texttt{C++}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2021 -- 202?}
+		{Bachelor's Degree}
+		{Czech Technical University - Faculty Of Intformation Technology}
+		{I am currently in my third semester, studying software engineering.}
+	\entry
+		{2013-2017-2021}
+		{Graduation}
+		{Grammar School of Dr. Vaclav Smejkal}
+		{}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{Czech} - native\\
+	\textbf{English} - C1 (CAE)\\
+	\textbf{German} - B2 (DSD1)
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	I always had passion for sports, snowboarding and badminton in particular. Unfortunately i only ever got a shot in the competitive badminton, i would like to add snowboarding on that list too one day.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Non profit}
+	
+	I partake in my badminton club as a group coach when they need me.
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
