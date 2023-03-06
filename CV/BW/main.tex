@@ -32,9 +32,9 @@
 	
 	% If your name is very short, use just one of the lines below
 	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Adam}}}}} % First name
+	\colorbox{white}{{\HUGE\textcolor{black}{\textbf{\MakeUppercase{Adam}}}}} % First name
 	
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Hajek}}}}} % Last name
+	\colorbox{white}{{\HUGE\textcolor{black}{\textbf{\MakeUppercase{Hajek}}}}} % Last name
 	
 	\vspace{6pt}
 	
@@ -65,24 +65,13 @@
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-	\cvsect{Programming}
-	\begin{entrylist}
-	\entry
-		{Experienced}
-		{}
-		{}
-		{\texttt{C/C++}\slashsep\texttt{Java}\slashsep\texttt{SQL}}
-	\entry
-		{Intermediate}
-		{}
-		{}
-		{\texttt{Bash}\slashsep\texttt{.NET}\slashsep\texttt{ProLog}\slashsep\texttt{LiSp}}
-	\entry
-		{Basic}
-		{}
-		{}
-		{\texttt{LATEX}\slashsep\texttt{Assembly}\slashsep\texttt{JavaScript}\slashsep\texttt{HTML}\slashsep\texttt{Python}}
-	\end{entrylist}
+	\begin{minipage}[t]{0.3\textwidth}
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
+		
+		\cvsect{Languages}
+		
+		{\texttt{C/C++}\\\texttt{Java}\\\texttt{SQL}\\\texttt{Bash}\\\texttt{.NET}\\\texttt{ProLog}\\\texttt{LiSp}\\\texttt{LATEX}\\\texttt{Assembly}\\\texttt{Python}}
+	\end{minipage}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
@@ -98,7 +87,7 @@
 	
 	\cvsect{Technologies}
 	
-	{\texttt{Git}\\\texttt{Kubernetes}\\\texttt{Docker}\\\texttt{OKD}}
+	{\texttt{Git}\\\texttt{Docker}\\\texttt{Kubernetes}\\\texttt{OKD}}
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
@@ -112,7 +101,7 @@
 		{11/2022 -- 12/2023}
 		{Reservantor}
 		{Technology Java - FIT CVUT}
-		{Implemented and designed Reservantor with a SQL database- a reservation systems back-end RestFul API that serves Trainees and their Coaches and also matches Trainees for matches against each other.\\ \texttt{Java}\slashsep\texttt{Springboot}}
+		{Implemented and designed Reservantor a reservation systems back-end RestFul API, which uses a SQL database, it serves Trainees and their Coaches, while also matching Trainees for matches against each other. Contains multiple unit, integration and system tests. Scalability is an option since RESTFUL CLEAN convention is used for implementation.\\ \texttt{Java}\slashsep\texttt{Springboot}}
 	\entry
 		{2/2023 -- 3/2023}
 		{WallpaperSwapper}
@@ -122,12 +111,12 @@
 		{3/2022 -- 6/2022}
 		{Bomberman}
 		{Programming and algoritmization - FIT CVUT}
-		{Created a clone of the origininal Bomberman game with a slight catch - it runs in terminal.\\ \texttt{C++}}
+		{Created a console clone of the origininal Bomberman game, the enemies have their own behavioral AI for pathfinding and attacking. It has local multiplayer and multiple levels.\\ \texttt{C++}}
 	\entry
 		{6/2022 -- 9/2022}
 		{6 minut pro zdravi}
 		{6minutprozdravi.cz}
-		{Developed a full stack app running a .NET back-end RestFul API and an android application that tracks users walking speed and sends it to their pediatrician.\\ \texttt{.NET}\slashsep\texttt{Angular}}
+		{Developed a full stack app running a .NET back-end RestFul API and an android application that tracks users walking speed and sends it to their pediatrician. The application is written for deployment in Cloud computing.\\ \texttt{.NET}\slashsep\texttt{Angular}}
 	\entry
 		{2020 -- today\\\footnotesize{hobby}}
 		{Competitive programming}
