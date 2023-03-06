@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.2.22)  6 MAR 2023 02:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.2.22)  6 MAR 2023 03:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,7 +986,7 @@ Here is how much of TeX's memory you used:
  36915 multiletter control sequences out of 15000+600000
  515487 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,6n,130p,431b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,6n,130p,422b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/hajekad/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.6
 00pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.
 enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.e
@@ -994,9 +994,9 @@ nc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}</usr/sh
 are/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb>
-Output written on main.pdf (1 page, 69387 bytes).
+Output written on main.pdf (1 page, 69170 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
