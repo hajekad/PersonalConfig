@@ -17,9 +17,9 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 \documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{enumitem} % Allows for customization of list spacing
 
 %----------------------------------------------------------------------------------------
-
 \begin{document}
 %----------------------------------------------------------------------------------------
 %	TITLE AND CONTACT INFORMATION
@@ -92,9 +92,17 @@
 \begin{entrylist}
 	\entry
 		{3/2023 -- 4/2024}
-    	{Junior Embedded Software Engineer}
+    	{C/C++ Embedded Software Engineer}
 		{ComAp a.s.}
-    	{Collaborated across three dynamic development teams, initiating my journey within a compact team of five, focusing on embedded display solutions. Within four months, my role expanded as I transitioned to a more substantial team comprising 12 members, dedicated to advancing hybrid control units. Here, I spearheaded the development of a robust, time-efficient solution and undertook a comprehensive overhaul of legacy code, integrating advanced, safety-oriented C++ design patterns. This period also marked my elevation to the role of CI/CD master, a distinction I proudly maintained until the conclusion of my tenure. In 2024, my expertise was further leveraged within a specialized marine development team of ten, where I was instrumental in the design and deployment of innovative PLC blocks and pioneering smart charging systems for marine applications.\\ \texttt{C/C++}\slashsep\texttt{CMake}\slashsep\texttt{Depigen}\slashsep\texttt{Assembly}\slashsep\texttt{ARM}\slashsep\texttt{ST}\slashsep\texttt{Renesas}}
+    	{
+\begin{itemize}[itemsep=0pt, parsep=0pt] % Adjust list spacing
+	\item Collaborated with three dynamic development teams; began with a five-member team on embedded display solutions.
+	\item Transitioned to a 12-member team within four months, focusing on hybrid control units.
+	\item Participated in the development of a time-representation and contributed to the overhaul of legacy code, using safety-oriented C++ design patterns.
+	\item Achieved the role of CI/CD master, a title maintained until the end of my tenure.
+	\item Contributed to a marine development team of ten in creating and deploying innovative PLC blocks and smart charging systems for marine use.
+\end{itemize}
+		}
 	\entry
 		{6/2022 -- 9/2022}
 		{6 minut pro zdravi}
